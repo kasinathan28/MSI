@@ -1,0 +1,233 @@
+
+.img{
+    margin-right: -140px;
+    width: auto;
+    height: 80px;
+    margin-left: 10px;
+    
+    
+    }
+    
+    .navc{
+        color: white;
+    }
+    
+    .bg{
+    background-color:red;
+        overflow:scroll;
+        overflow-x: hidden;
+    
+        
+    }
+    
+    
+    .bg2{
+      background-color:white;
+          overflow:scroll;
+          overflow-x: hidden;
+      
+          
+      }
+      
+    
+    .h5{
+        text-align: center;
+         font-weight: bold; 
+         text-decoration: none; 
+         color: black;
+    }
+    .p{
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        margin-top: 20px;
+    }
+    
+    .card{
+        border: none; /* Remove the border */
+    overflow: hidden;
+    
+    }
+    
+    .card1 {
+       
+       
+        transition: transform 0.3s ease;
+      }
+    
+      .card1:hover {
+        overflow: hidden;
+        transform: scale(1.2);
+        background-color: white;
+        color: white;
+        .card-body:hover{
+            color:red;
+        }
+      }
+    
+    .card-body{
+        margin-top: 30px;
+        border-radius:0px;
+        background-color: white;
+        border: none; /* Remove the border */
+        
+    
+        
+    }
+      
+    .card-body:hover{
+        transition: 0.3s white;
+    }
+    
+
+
+    .footer{
+        margin-top:100px ;
+        background: linear-gradient(to top, white, red);
+        background-color: white;
+          padding: 50px 0;
+      }
+      .footer-col{
+         width: 25%;
+         padding: 0 15px;
+      }
+      .footer-col h4{
+        font-size: 18px;
+        color: #000;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+      }
+      .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: black;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+      }
+      .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+      }
+      .footer-col ul li a{
+      
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #000;
+        display: block;
+        transition: all 0.3s ease;
+      }
+      .footer-col ul li a:hover{
+        color: #000;
+        padding-left: 8px;
+      }
+      .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: red;
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #000;
+        transition: all 0.5s ease;
+      }
+      .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #000;
+      }
+      
+      /*responsive*/
+      @media(max-width: 767px){
+        .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+      }
+      @media(max-width: 574px){
+        .footer-col{
+          width: 100%;
+      }
+      }
+
+
+
+      
+      .card {
+        background-color: #24262b;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center contents horizontally */
+    }
+    
+    .card-img-container {
+        display: flex;
+        justify-content: center; /* Center image horizontally */
+        align-items: center; /* Center image vertically */
+    }
+
+    .card-img-top {
+        width: 350px;
+        height: auto;
+        transition: transform 0.3s; /* Adding transition property */
+    }
+    
+    .card-img-top:hover {
+        transform: scale(1.1); /* Apply scale transform on hover */
+       
+    }
+    
+   
+    .card-body{
+        background-color: #24262b;
+        color: white;
+    }
+    .card-title{
+        transition: transform 0.3s;
+        
+        
+    }
+    .card-title:hover{
+        color: red;
+        pointer-events: inherit;
+
+    }
+
+    .vertical-stroke {
+        width: 2px;
+        background-color: white;
+        margin: 0 0; /* Adjust margin to control spacing of the stroke */
+    }
+    
+
+    .hor-stroke {
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        margin: 0 0; /* Adjust margin to control spacing of the stroke */
+    }
+    
+
+    .h1{
+        text-align: center;
+        color: white; 
+        font-weight: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 50px;margin-bottom: 30px;
+        font-weight: 10px;
+        color: white;
+        
+    }
+    .d3{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }

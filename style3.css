@@ -1,0 +1,63 @@
+/*   
+
+@keyframes colorAnimation {
+    0%, 100% {
+        color: white;
+    }
+    70% {
+        color: blue;
+    }
+} */
+
+/* table {
+    margin-bottom: 100px;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+
+th, td {
+    border: 1px solid red;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+td{
+    color: white;
+} */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #191825;
+    box-shadow: 0 2px 4px rgba(240, 233, 233, 0.1);
+    
+}
+
+th {    
+    background-color: #333;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+td {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+td:hover {
+    background-color: rgb(87, 81, 81);
+    color: white;
+}
+
+

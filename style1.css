@@ -1,0 +1,277 @@
+
+.img{
+margin-right: -140px;
+width: auto;
+height: 80px;
+margin-left: 10px;
+
+
+}
+
+.navc{
+    color: white;
+}
+
+.bg{
+background-color:red;
+    overflow:scroll;
+    overflow-x: hidden;
+
+    
+}
+
+
+.bg2{
+  background-color:white;
+      overflow:scroll;
+      overflow-x: hidden;
+  
+      
+  }
+  
+
+.h5{
+    text-align: center;
+     font-weight: bold; 
+     text-decoration: none; 
+     color: black;
+}
+.p{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    margin-top: 20px;
+}
+
+.card{
+    border: none; /* Remove the border */
+overflow: hidden;
+
+}
+
+.card1 {
+   
+   
+    transition: transform 0.3s ease;
+  }
+
+  .card1:hover {
+    overflow: hidden;
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    .card-body:hover{
+        color:red;
+    }
+  }
+
+.card-body{
+    margin-top: 30px;
+    border-radius:0px;
+    background-color: white;
+    border: none; /* Remove the border */
+    
+
+    
+}
+  
+.card-body:hover{
+    transition: 0.3s white;
+}
+
+.opt {
+    display: flex;
+    justify-content:center; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    
+  }
+
+
+
+  .opt ul {
+    list-style: none;
+    display: flex;
+    gap: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.opt li {
+    display: flex;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Adding transition properties */
+    align-items: center;
+}
+
+.opt li:hover {
+    background-color: #333; /* Background color on hover */
+    color: #ff9900; /* Text color on hover */
+    transform: scale(1.1); /* Apply scale transform on hover */
+}
+
+.opt i {
+    margin-right: 5px;
+}
+
+.ser {
+    color: white;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+
+  .footer{
+
+    background: linear-gradient(to top, white, red);
+    background-color: white;
+      padding: 50px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+  
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #000;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #000;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+
+    .container1 {
+      border-radius: 0%;
+      max-width: 800px;
+      margin: 20px auto;
+      justify-content: right;
+      padding: 20px;
+      background-color: red;
+      border-radius: 0px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 70px;
+      margin-top: 100px;
+    }
+    
+    h1 {
+      text-align: left;
+      margin-bottom: 20px;
+      font-family: 'Gruppo', sans-serif;  
+    }
+
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    textarea {
+      height: 150px;
+      resize: none;
+    }
+    
+    button {
+      background-color: black;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        max-width: 90%;
+      }
+    }
+
+
+
+    
+  
